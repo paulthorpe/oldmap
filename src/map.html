@@ -1,0 +1,165 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Dazed Cloud...Map</title>
+		<script type="text/javascript" src="jquery-1.2.6.pack.js"></script>
+		<script type="text/javascript" src="mapfunctions.js"></script>
+	</head>
+	<body bgColor=#ffffff leftMargin=0 text=#000000 topMargin=0 marginheight="0" marginwidth="0">
+		<MAP name="Map">
+			<AREA shape="RECT" coords="714,3,746,14" href="/index.html">
+		</MAP>
+		<LINK href="styles/stylesmain.css" type="text/css" rel="Stylesheet"></LINK>
+		<link href="styles/MicroSite1.css" type="text/css" rel="stylesheet" ></LINK>
+		<TABLE id="Table1" cellSpacing="0" cellPadding="0" border="0">
+			<TR>
+				<TD width="754">
+					<TABLE id="Table2" cellSpacing="0" cellPadding="0" width="754" border="0">
+						<TR>
+							<TD height="74">
+								<TABLE id="Table3" cellSpacing="0" cellPadding="0" width="754" border="0">
+									<TR>
+										<TD class="Siteheading"><SPAN class="orangetext">?? <SPAN class="darktext">...Dazed 
+													Cloud...</SPAN> ??</SPAN></TD>
+										<TD vAlign="top" width="18" background="images/site/bg_right.gif" height="74"><IMG height="74" alt="" src="images/site/clear.gif" width="18"></TD>
+									</TR>
+								</TABLE>
+							</TD>
+						</TR>
+						<TR>
+							<TD><IMG alt="" src="images/site/top_02-2.gif" useMap="#Map" border="0"></TD>
+						</TR>
+						<TR>
+							<TD bgColor="#000066"><IMG height="20" alt="" src="images/site/top_03-2.gif" width="229"><!--<a href="Dev.html"><IMG alt="Development projects" border=0 height=20 name=Image4 src="images/site/btn_company-1.gif" width=72></a><IMG alt="" border=0 height=20 name=Image5 src="images/site/btn_services-2.gif" width=71><IMG alt="" border=0 height=20 name=Image6 src="images/site/btn_products-2.gif" width=80><IMG alt=""  border=0 height=20 name=Image7 src="images/site/btn_careers-2.gif" width=66><IMG alt=""  border=0 height=20 name=Image8 src="images/site/btn_news-2.gif" width=51><IMG alt="" border=0 height=20 name=Image9 src="images/site/btn_contact-2.gif" width=92>--><IMG height="20" alt="" src="images/site/top_04.gif" width="93"></TD>
+						</TR>
+						<TR>
+							<TD><IMG height="24" alt="" src="images/site/top_05.gif" width="754">
+							</TD>
+						</TR>
+						<TR>
+							<TD>
+								<TABLE id="Table4" cellSpacing="0" cellPadding="0" width="754" border="0">
+									<TR>
+										<TD vAlign="top" width="139" bgColor="#000066" height="392" class="instext"><p>&nbsp;</p>Place your mouse cursor over one of the large clouds to view the days weather, or place your mouse cursor over the small dots on the map to view place information, the dots are also clickable.<p>&nbsp;</p>The data for the map is not real.<!--<IMG alt="" height=392 src="images/site/image_main.gif" width=139>--></TD>
+										<TD vAlign="top" width="597"><IMG height="44" alt="" src="images/site/page_header.gif" width="597">
+											<BR>
+											<TABLE id="Table5" cellSpacing="10" cellPadding="0" width="597" border="0">
+												<TR>
+													<TD class="SiteText" vAlign="top">
+														<!--Start of infomap area-->
+														<img src="images/infomapimages/compass3.gif" alt="compass" style="position:absolute;top:220;left:210;">
+														<img src="images/infomapimages/map.gif" id="Island" style="position:absolute;top:222;left:292;">
+														<a id="switchA" class="LinkText" style="position:absolute;top:500;left:300;">Sites of interest A</a>
+														<a id="switchB" class="LinkText" style="position:absolute;top:500;left:450;">Sites of interest B</a>
+														<a id="switchC" class="LinkText" style="position:absolute;top:500;left:600;width:100%">Sites of interest C</a>
+														<div id="WeatherSelector">
+															<table cellpadding="0" cellspacing="0" border="0" ID="Table9">
+																<tr>
+																	<td><img id="swl1" src="images/infomapimages/selectweatherlight.gif"></td>
+																	<td><img id="swl2" src="images/infomapimages/selectweatherlight.gif"></td>
+																	<td><img id="swl3" src="images/infomapimages/selectweatherlight.gif"></td>
+																</tr>
+																<tr>
+																	<td align=center><span id="Day1"></span></td>
+																	<td align=center><span id="Day2"></span></td>
+																	<td align=center><span id="Day3"></span></td>
+																</tr>
+															</table>
+														</div>
+														<div id="AllDotsPrem">
+															<span id="Southampton" style="position:absolute;top:265px;left:250px"><img src="images/infomapimages/flag/pdot1.gif"></span>
+															<span id="London" style="position:absolute;top:240px;left:310px"><img src="images/infomapimages/flag/pdot1.gif"></span>
+															<span id="Brighton" style="position:absolute;top:268px;left:310px"><img src="images/infomapimages/flag/pdot1.gif"></span>
+														</div>
+														
+														<div id="AllDotsDiv1">
+															<span id="Another_place_A" style="position:relative;top:171px;left:240px"><img src="images/infomapimages/flag/d2dot1.gif"></span>
+															<span id="Another_place_B" style="position:relative;top:135px;left:220px"><img src="images/infomapimages/flag/d2dot1.gif"></span>
+															<span id="Hebrides" style="position:relative;top:100px;left:85px"><img src="images/infomapimages/flag/d2dot1.gif"></span>
+														</div>
+														
+														<div id="AllDotsConf">
+															<span id="Another_place_D" style="position:relative;top:155px;left:235px"><img src="images/infomapimages/flag/cdot1.gif"></span>
+															<span id="Another_place_E" style="position:relative;top:176px;left:210px"><img src="images/infomapimages/flag/cdot1.gif"></span>
+															<span id="Another_place_F" style="position:relative;top:250px;left:180px"><img src="images/infomapimages/flag/cdot1.gif"></span>
+														</div>
+														<!--end of infomap-->
+													</TD>
+												</TR>
+											</TABLE>
+										</TD>
+										<TD vAlign="top" background="images/site/bg_right.gif"><IMG height="49" alt="" src="images/site/right_01-2.gif" width="18">
+										</TD>
+									</TR>
+								</TABLE>
+							</TD>
+						</TR>
+					</TABLE>
+				</TD>
+			</TR>
+		</TABLE>
+		<TABLE id="Table6" cellSpacing="0" cellPadding="0" border="0">
+			<TR>
+				<TD background="images/site/bg_bottom.gif" height="16"><IMG height="16" alt="" src="images/site/bottom_01-2.gif" width="754"></TD>
+			</TR>
+		</TABLE>
+		<!--weather areas -->
+		<div id="RegionA" style="position:absolute;visibility:hidden;top:250px;left:460px;z-Index:10"></div>
+		<div id="RegionB" style="position:absolute;visibility:hidden;top:310px;left:510px;z-Index:10"></div>
+		<div id="RegionC" style="position:absolute;visibility:hidden;top:400px;left:510px;z-Index:10"></div>
+		<div id="RegionD" style="position:absolute;visibility:hidden;top:400px;left:610px;z-Index:10"></div>
+		<div id="RegionE" style="position:absolute;visibility:hidden;top:350px;left:630px;z-Index:10"></div>
+		<div id="RegionF" style="position:absolute;visibility:hidden;top:340px;left:460px;z-Index:10"></div>
+		<div id="RegionG" style="position:absolute;visibility:hidden;top:340px;left:560px;z-Index:10"></div>
+		<div id="RegionH" style="position:absolute;visibility:hidden;top:420px;left:410px;z-Index:10"></div>
+		<!--weather areas -->
+
+		<!--Link Box -->
+		<div id="LinkBox" style="position:absolute;visibility:hidden;top:100px;left:150px">
+			<table cellpadding="0" cellspacing="0" border="0" background="images/infomapimages/clickbox.gif" width="120" height="78" ID="Table10">  
+				<tr>
+					<td>&nbsp;<a id="officalsite" href="#" class="WhiteLinks">Official Site</a></td>
+				</tr>
+				<tr>
+					<td>&nbsp;<a id="closebox" href="#" class="WhiteLinks">Close Links</a></td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+				</tr>
+			</table>
+		</div>
+		<!--Link Box -->
+
+		<!--Team Info Box -->
+		<div id="TeamInfo" style="position:absolute;visibility:hidden;left:170;top:320">
+			<table cellpadding="0" cellspacing="0" border="1" bordercolor="#000000" width="150" height="100" ID="Table11">
+				<tr>
+					<td align="center" bgcolor="#000000" height="10">
+						<span id="Name" class="WhiteLinks">&nbsp;</span>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">
+						<table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%" ID="Table12">	
+							<tr>
+								<td width="10">&nbsp;</td>
+								<td background="images/infomapimages/watermark.gif" class="DetailsText">
+									<span style="color:red">Comments:</span><br>&nbsp;&nbsp;<span id="Stadium">&nbsp;</span><br>
+									<span style="color:red">&nbsp;</span>&nbsp;<span id="Capacity">&nbsp;</span><br>
+									<span style="color:red">&nbsp;</span>&nbsp;<span id="Formed">&nbsp;</span><br>
+									<span style="color:red">&nbsp;</span><br>&nbsp;&nbsp;<span id="Manager">&nbsp;</span><br>
+									<span style="color:red">&nbsp;</span>&nbsp;<span id="Pos">&nbsp;</span><br><br>
+								</td>
+								<td width="10">&nbsp;</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<!--Team Info Box -->
+	</body>
+</html>

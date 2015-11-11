@@ -1,0 +1,54 @@
+A:link {
+	COLOR: #000066; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000066; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+
+.SiteText {
+	Color:#000000; 
+	Font-Weight:Normal; 
+	Font-Family:Arial,Helvetica,Verdana; 
+	Font-Size:14px;
+}
+
+.TitleText
+{
+	font-weight: normal;
+	font-size: 26px;
+	color: #AAAAAA;
+	font-family: Arial,Helvetica,Verdana;
+}
+
+.Siteheading
+{
+	font-weight: bold;
+	font-size: x-large;
+	font-style: normal;
+	font-family: Arial,Helvetica,Verdana;
+}
+
+.orangetext
+{
+	color:#FF9A32;
+}
+
+.darktext
+{
+	color:#333385;
+}
+
+.subtext
+{
+	font-size: 9pt;
+}
+
+.instext
+{
+	color:White;
+	font-style: normal;
+	font-family: Arial,Helvetica,Verdana;
+}

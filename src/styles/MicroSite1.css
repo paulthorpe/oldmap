@@ -1,0 +1,170 @@
+.MicroSiteColour
+{
+    BACKGROUND-COLOR: #32659c
+}
+.MenuSection
+{
+    COLOR: white
+}
+.MenuSectionSelected
+{
+    COLOR: white
+}
+.MenuSectionHead
+{
+    BACKGROUND-COLOR: #22558c;
+    COLOR: white
+}
+.LinkBar
+{
+    COLOR: white
+}
+.TodaysDate
+{
+    COLOR: white
+}
+.MoreLink
+{
+    BACKGROUND-COLOR: #32659c;
+    COLOR: white
+}
+.MenuSectionHeadSelected
+{
+    BACKGROUND-COLOR: #22558c;
+    COLOR: yellow
+}
+.ColumnHeader
+{
+    BACKGROUND-COLOR: #32659c;
+    COLOR: white
+}
+.ColumnBox
+{
+}
+.MicroSiteHeader
+{
+    BACKGROUND-COLOR: #32659c;
+    COLOR: black
+}
+.SpecialFeatureBox
+{
+    BACKGROUND-COLOR: lightgoldenrodyellow
+}
+.SpecialFeature
+{
+    BACKGROUND-COLOR: #cc0000;
+    COLOR: white
+}
+.StatsHeader
+{
+    BACKGROUND-COLOR: black;
+    COLOR: white
+}
+.TableStyle
+{
+    BACKGROUND-COLOR: #32659c;
+    COLOR: white
+}
+.TableTop
+{
+    BACKGROUND-COLOR: #5a8dc4;
+    COLOR: white
+}
+.LeftBlue
+{
+    COLOR: #32659c;
+    font-family: verdana;
+    font-size: 14pt;
+    font-weight: bold
+}
+.RightRed
+{
+    COLOR: #ff0000;
+    font-family: verdana;
+    font-size: 14pt;
+    font-weight: bold
+}
+.PageHeaders
+{
+	text-align: right
+}
+#WeatherSelector
+{
+	position: absolute;
+	top: 200px;
+	left:580px;
+	z-index: 5;
+}
+#Day1,#Day2,#Day3
+{
+	color: red;
+	font-size: 10pt;
+	font-family: verdana
+}
+
+#AllDotsPrem
+{
+	position: absolute;
+	visibility: visible;
+	z-index:2;
+	left:316px;
+	top:155px;
+	width: 431px;
+	height: 269px
+}
+
+#AllDotsDiv1
+{
+	position: absolute;
+	visibility: hidden;
+	z-index:2;
+	left:316px;
+	top:155px;
+	width: 431px;
+	height: 269px;
+}
+
+#AllDotsConf
+{
+	position: absolute;
+	visibility: hidden;
+	z-index:2;
+	left:316px;
+	top:155px;
+	width: 431px;
+	height: 269px
+}
+
+
+.LinkText
+{
+	font-family: verdana;
+	font-size: 10pt;
+	color: blue;
+	text-decoration: underline;
+	cursor:pointer;
+}
+
+.whiteLinks
+{
+	font-family: verdana;
+	font-size: 8pt;
+	font-weight: bold;	
+	color: white;
+}
+
+.WhiteLinksClear
+{
+	font-family: verdana;
+	font-size: 8pt;
+	font-weight: bold;	
+	color: white;
+}
+
+.DetailsText
+{
+	font-family: verdana;
+	font-size: 8pt;
+	font-weight: bold;
+	color:#22558c;
+}
